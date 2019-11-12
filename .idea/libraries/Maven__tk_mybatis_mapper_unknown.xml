@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: tk.mybatis:mapper:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper/unknown/mapper-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper/unknown/mapper-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper/unknown/mapper-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
