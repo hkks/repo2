@@ -19,6 +19,8 @@ public class BrandController {
 @GetMapping("/findall")
 public List<Brand> findAll(){
 return brandService.findAll();
+
+
 }
 
 

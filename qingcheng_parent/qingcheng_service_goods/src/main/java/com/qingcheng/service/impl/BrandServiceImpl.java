@@ -1,11 +1,12 @@
 package com.qingcheng.service.impl;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.qingcheng.dao.BrandMapper;
 import com.qingcheng.entity.PageResult;
 import com.qingcheng.pojo.goods.Brand;
 import com.qingcheng.service.goods.BrandService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+
 
 import java.util.List;
 import java.util.Map;
@@ -55,6 +56,6 @@ public class BrandServiceImpl implements BrandService {
 
     @Override
     public void delete(Integer integer) {
-
+        System.out.println(44);
     }
 }
