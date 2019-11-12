@@ -16,6 +16,15 @@ public class Brand implements Serializable {
     private String image;
     private String letter;
     private String seq;
+private  int age;
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 
     public Integer getId() {
         return id;

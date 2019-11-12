@@ -23,6 +23,12 @@ return brandService.findAll();
 
 }
 
+    public Brand findbyId(Integer integer){
+        return  brandService.findById(integer);
+
+    }
+
+
 
 
 

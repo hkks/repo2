@@ -22,6 +22,7 @@ public class BrandServiceImpl implements BrandService {
     @Override
     public List<Brand> findAll() {
         return brandMapper.selectAll();
+
     }
 
     @Override
@@ -41,7 +42,7 @@ public class BrandServiceImpl implements BrandService {
 
     @Override
     public Brand findById(Integer integer) {
-        return null;
+        return brandMapper.selectByPrimaryKey(integer);
     }
 
     @Override
